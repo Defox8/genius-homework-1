@@ -1,0 +1,122 @@
+:root {
+  --color-brend-light: #2b7fff;
+  --color-brend-dark: #011c44;
+}
+/* Base */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Play", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1248px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Button */
+.button {
+  color: #faf4ea;
+  font-weight: 600;
+  border: 2px solid var(--color-brend-light);
+  background-color: var(--color-brend-light);
+  border-radius: 35px;
+  padding: 16px 32px;
+  cursor: pointer;
+  margin-bottom: 14px;
+}
+/* Button Hover  */
+.button:hover {
+  color: var(--color-brend-dark);
+  background-color: transparent;
+}
+
+/* Links */
+.link {
+  color: var(--color-brend-dark);
+}
+
+.link:hover {
+  color: var(--color-brend-light);
+  font-weight: 600;
+}
+
+/* hero section*/
+.hero-section {
+  padding: 123px 667px 127px 244px;
+}
+
+.hero-title {
+  color: var(--color-brend-light);
+  text-align: center;
+  font-size: 140px;
+  margin: 3px;
+  margin-bottom: 40px;
+}
+
+/* about us-section */
+.aboutus-title {
+  margin-bottom: 40px;
+}
+.aboutus-p {
+  margin-bottom: 40px;
+}
+
+/* whywe-section */
+.whywe-title {
+  margin-bottom: 48px;
+}
+
+/* procedures-section */
+.procedures-title {
+  margin-bottom: 48px;
+}
+
+/* contact-section */
+.contact-title {
+  margin-bottom: 48px;
+}
+/* tiiles */
+.title {
+  color: var(--color-brend-light);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 74, 05px;
+}
+
+.title-accent {
+  color: var(--color-brend-dark);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 74, 05px;
+}
+
+.title-accent-p {
+  color: var(--color-brend-dark);
+  font-weight: 600;
+}
+
+.cosmetology-title {
+  margin-bottom: 16px;
+}
